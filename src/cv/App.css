@@ -1,0 +1,112 @@
+.back{
+  background: linear-gradient(rgb(169, 3, 41) 0%, rgb(143, 2, 34) 44%, rgb(109, 0, 25) 100%);
+
+}
+.partical{
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 160%;
+  z-index: 1;
+  width: 100%;
+}
+.head{
+  display: flex;
+  justify-content: center;
+}
+
+.name{
+  display: flex;
+  justify-content: center;
+  text-transform: uppercase;
+  color: rgb(255, 253, 253);
+  margin-top: 30px;
+}
+
+.fluid{
+  margin-top: 50px;
+  height: 100px;
+  border-radius: 40%;
+}
+
+.about{
+  display: flex;
+  justify-content: center;
+  text-transform: uppercase;
+  padding: 40px 0 60px 0;
+  color: #fff;
+}
+.info{
+  display: flex;
+  justify-content: space-around;
+  height: 100%;
+}
+  
+
+.conta{
+  display: flex;
+   flex-direction: column;
+   height: 100%;
+}
+
+.color{
+  color: #fff;
+  margin-bottom: 10px;
+}
+
+.social{
+  color: #fff;
+}
+
+.info a:hover{
+  text-decoration: none;
+  color: aliceblue;
+}
+
+
+i{
+  margin-right: 10px;
+  font-size: 19px;
+}
+
+
+.middle{
+  display: flex;
+  justify-content: space-around;
+  height: 100%;
+  margin: 200px 0;
+}
+
+.middle h2{
+  margin-bottom: 50px;
+  color: #fff;
+  text-align: center;
+}
+
+.middle h6{
+  color: white;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.middle p{
+  text-align: center;
+  color: #fff;
+  margin-bottom: 30px;
+}
+
+.box2 h6{
+  margin-bottom: 40px;
+}
+
+.foot{
+  text-align: center;
+}
+.foot h2{
+  color: #fff;
+  text-transform: uppercase;
+  margin-bottom: 50px;
+}
+.foot p{
+  color: #fff;
+}

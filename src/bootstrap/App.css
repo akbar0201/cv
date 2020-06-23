@@ -1,0 +1,291 @@
+header{
+  padding:  15px 0;
+  z-index: 997;
+  transition: all 0.5s;
+}
+
+p{
+  margin-top: 0;
+  margin-bottom: 1rem;
+}
+.header-scrolled{
+  background: rgba(40, 58, 90, 0.9);
+}
+.sec{
+  width: 100%;
+  height: 80vh;
+  background: #37517e;
+  padding: 60px 0;
+  overflow: hidden;
+}
+
+
+.aos-animate{
+  transition-delay: .2s;
+  opacity: 1;
+  transform: translateZ(0);
+}
+
+
+
+.fixed-top{
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+}
+
+.bootstrap{
+  font-size: 30px;
+  margin: 0;
+  padding: 0;
+  line-height: 1;
+  font-weight: 500;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  margin-right: auto !important;
+}
+
+.bootstrap a{
+  color: #fff;;
+  
+}
+
+.bootstrap a:hover{
+  text-decoration: none;
+  background-color: transparent;
+  color:#fff;
+}
+
+.d-lg-block{
+  display: block !important;
+}
+
+.nav-menu > ul{
+  display: flex;
+}
+
+.nav-menu ul{
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+.nav-menu > ul > li{
+  position: relative;
+  white-space: nowrap;
+  padding: 10px 0 10px 28px;
+}
+
+.nav-menu a{
+  display: block;
+  position: relative;
+  color: #fff;
+  transition: 0.3s;
+  font-size: 15px;
+  letter-spacing: 0.5px;
+  font-weight: 500;
+}
+
+.nav-menu a:hover{
+  text-decoration: none;
+  background-color: transparent;
+}
+
+.get-start a:hover{
+  background: #47b2e4;
+  color: #fff;
+  text-decoration: none;
+}
+
+.get-started-btn{
+  margin-left: 25px;
+  color: #47b2e4;
+  border-radius: 50px;
+  padding: 6px 25px 7px 25px;
+  white-space: nowrap;
+  transition: 0.3s;
+  font-size: 14px;
+  display: inline-block;
+  border: 2px solid #47b2e4;
+  font-weight: 600;
+}
+
+section h1{
+  margin: 0 0 10px 0;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 56px;
+  color: #fff;
+  font-family: "Jost", sans-serif;
+}
+
+section h2{
+  color: rgba(255, 255, 255, 0.6);
+  margin-bottom: 50px;
+  font-size: 24px;
+  font-family: "Jost", sans-serif;
+}
+
+
+.d-lg-flex{
+  display: flex !important;
+}
+
+
+section .btn-get-started{
+    font-family: "Jost", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    letter-spacing: 1px;
+    display: inline-block;
+    padding: 10px 28px 11px 28px;
+    border-radius: 50px;
+    transition: 0.5s;
+    margin: 10px 0 0 0;
+    color: #fff;
+    background: #47b2e4;
+}
+
+section .btn-watch-video{
+  font-size: 16px;
+    display: inline-block;
+    padding: 10px 0 8px 40px;
+    transition: 0.5s;
+    margin: 10px 0 0 25px;
+    color: #fff;
+    position: relative;
+}
+
+section .btn-watch-video i{
+  color: #fff;
+  font-size: 32px;
+  position: absolute;
+  left: 0;
+  top: 7px;
+  transition: 0.3s;
+}
+
+.fa-play{
+  font-family: IcoFont!important;
+    font-style: normal;
+    font-weight: 400;
+    font-variant: normal;
+    text-transform: none;
+    white-space: nowrap;
+    direction: ltr;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+}
+
+section .get a:hover{
+  text-decoration: none;
+  background-color: #47b2e47e;
+  color: #fff;
+}
+
+section .video a:hover{
+  text-decoration: none;
+  color: #fff;
+}
+
+
+.aos-animate{
+  transition-delay: .2s;
+  opacity: 1;
+  transform: translateZ(30px);
+}
+
+
+.animated {
+  animation: up-down 2s ease-in-out infinite alternate-reverse both;
+}
+
+.img-fluid{
+  max-width: 100%;
+  height: auto; 
+}
+
+img{
+  vertical-align: middle;
+  border-style: none;
+}
+
+
+
+/* ////// */
+
+
+.cliens{
+  padding: 12px 0;
+  text-align: center;
+}
+
+.section-bg{
+  background-color: #f3f5fa;
+}
+
+[data-aos^=zoom][data-aos^=zoom].aos-animate {
+  opacity: 1;
+  transform: translateZ(0) scale(1);
+}
+
+.align-items-center{
+   align-items: center !important;
+}
+
+.justify-content-center{
+  justify-content: center !important;
+}
+
+.cliens img{
+  max-width: 45%;
+  transition: all 0.4s ease-in-out;
+  display: inline-block;
+  padding: 15px 0;
+  height: 90px;
+}
+
+
+/* clients */
+
+
+
+.section-title {
+  text-align: center;
+  padding-bottom: 30px;
+}
+
+.about{
+  padding: 60px 0;
+  overflow: hidden;
+}
+
+[data-aos^=fade][data-aos^=fade].aos-animate {
+  opacity: 1;
+  transform: translateZ(0);
+}
+
+.section-title h2{
+  font-size: 32px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  padding-bottom: 20px;
+  position: relative;
+  color: #37517e;
+}
+
+.about .content ul {
+  list-style: none;
+  padding: 0;
+}
+
+.about .content ul i {
+  position: absolute;
+  left: 0;
+  top: 2px;
+  font-size: 20px;
+  color: #47b2e4;
+  line-height: 1;
+  width: 100px;
+}
