@@ -1,0 +1,289 @@
+.head{
+  display: flex;
+  justify-content: space-around;
+  height: 100%;
+  align-items: center;
+}
+
+.head a:hover{
+   text-decoration: none;
+   color: #000;
+   background-color: #fff;
+   padding: 5px 10px;
+}
+li{
+  list-style-type: none;
+  margin-right: 35px;
+  font-weight: bold;
+}
+
+.head nav{
+  display: flex; 
+  flex-direction: row;
+}
+
+.head a{
+  color: #fff;
+  transition: all .5s;
+}
+
+@media(max-width: 1000px){
+  header{
+    padding: 20px 50px;
+  }
+}
+@media(max-width: 700px){
+  header{
+    flex-direction: column;
+  }
+  header h2{
+    margin-bottom: 15px;
+  }
+  header nav li{
+    margin: 0 7px;
+  }
+
+} 
+
+
+/* banner-area */
+
+.banner-area{
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  align-items: center;
+  padding: 110px 100px;
+}
+
+@media (max-width: 1000px){
+  section{
+    padding: 100px 50px;
+  }
+}
+
+@media (max-width: 600px){
+  section{
+    padding: 125px 30px;
+  }
+}
+.banner-area{
+  position: relative;
+  justify-content: center;
+  min-height: 100vh;
+  color: #fff;
+  text-align: center;
+}
+.back{
+  background-image: url('../n.png');
+  z-index: -1;
+  background-size: cover;
+}
+
+ .banner-img:after{
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #000;
+  opacity: .8;
+}
+
+.banner-area a{
+  color: #fff;
+}
+
+.banner-area a:hover{
+  text-decoration: none;
+  color: #fff;
+}
+
+.banner-area h1{
+  margin-bottom: 15px;
+  font-size: 65px;
+  font-family: merienda;
+}
+
+.banner-area h3{
+  margin-bottom: 40px;
+  font-size: 25px;
+}
+
+.banner-area .banner-btn{
+  padding: 15px 35px;
+  background: crimson;
+  border-radius: 50px;
+  text-transform: uppercase;
+}
+
+@media (max-width: 800px){
+    .banner-area{
+      min-height: 600px;
+    }
+    .banner-area h1{
+      font-size: 32px;
+    }
+    .banner-area h3{
+      font-size: 20px;
+    }
+    .banner-area .banner-btn{
+      padding: 15px 40px;
+    }
+}
+
+/* about area */
+.about-area{
+  margin-top: 90px;
+  margin-bottom: 90px;
+}
+.about-us h2{
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: bold;
+  margin-bottom: 110px;
+  font-size: 50px;
+}
+
+.about-two{
+  display: flex;
+  justify-content: space-around;
+  height: 100%;
+  flex-flow: row-reverse;
+  align-items: center;
+}
+
+.wid{
+  width: 13%;
+}
+
+.about-two a:hover{
+  text-decoration: none;
+  color: #fff;
+}
+
+.learn{
+  padding: 15px 35px;
+  background: crimson;
+  border-radius: 50px;
+  text-transform: uppercase;
+  color: #fff;
+}
+
+.about-two p{
+  margin-bottom: 40px;
+  margin-top: 20px;
+
+}
+
+.right {
+  width: 25%;
+}
+
+
+/* services */
+
+.service{
+  background: rgb(196, 196, 196);
+  padding-bottom: 90px;
+  
+}
+
+.service h2{
+  font-weight: bold;
+  font-size: 50px;
+  text-transform: uppercase;
+  text-align: center;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.serv-three{
+  display: flex;
+  justify-content: space-around;
+  height: 100%;
+}
+
+.ic{
+  font-size: 40px;
+  color: crimson;
+}
+
+.service h6{
+  text-align: center;
+  font-weight: bold;
+  font-size: 20px;
+  margin-top: 30px;
+  margin-bottom: 15px;
+}
+
+.servi p{
+  text-align: center;
+}
+
+.servi{
+  width: 19%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+
+/* contact */
+.contact{
+  padding-bottom: 90px;
+}
+
+.contact h2{
+  font-weight: bold;
+  font-size: 50px;
+  text-transform: uppercase;
+  text-align: center;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.cont-three{
+  display: flex;
+  justify-content: space-around;
+  height: 100%;
+}
+
+.contact h6{
+  text-align: center;
+  font-weight: bold;
+  font-size: 20px;
+  margin-top: 30px;
+  margin-bottom: 15px;
+  text-align: center;
+}
+
+.contacts{
+  width: 19%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+
+/* footer */
+
+footer{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  color: #fff;
+  background-color: #000;
+  padding: 60px;
+} 
+
+footer h6{
+  text-align: center;
+  font-weight: bold;
+  font-size: 20px;
+  margin-top: 30px;
+  margin-bottom: 15px;
+  text-align: center;
+}

@@ -3,7 +3,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from './cv/App';
+import App from './flexbox/App';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { MDBIcon, MDBContainer } from 'mdbreact';
 import { FaTwitter, FaEnvelope, FaMobileAlt, FaFacebook, FaFacebookSquare, FaInstagramSquare, FaCheckDouble } from "react-icons/fa"
